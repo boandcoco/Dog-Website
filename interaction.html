@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Pick your own dog</title>
+  </head>
+  <body style=background-color:rgb(43,69,77) >
+    <h1 align="center"> Pick you own dog </h1>
+    <br><br>
+     <form action="/action_page.php" method="get" target="_blank">
+    <div align="center">
+      Enter your dog's name:
+      <input type="text" id="name" name="name">
+      <br><br>
+    What gender?
+    <input type="radio" name="exe" value=1>Male
+      <input type="radio" name="exe" value=0>Female
+      <br><br>
+      What type of breed?
+      <select name="dog breed"><option>
+        <option value=1 selected="true">Labrador Retriever</option>
+        <option value=2>German Shepherd</option>
+        <option value=3>Poodle</option>
+        <option value=4>Beagle</option>
+        <option value=5>Dachshund</option>
+      </option></select>
+      <br><br>
+     <input type="submit" value="Submit Form">
+    </div>
+    </form>
+  </body>
+</html>
